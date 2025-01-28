@@ -96,10 +96,10 @@ When running with the configuration parameters which reproduced the results of t
 
 [Oscar Desktop Session](https://docs.ccv.brown.edu/oscar/connecting-to-oscar/open-ondemand/desktop-app-vnc#launching-desktop-app-vnc)
 
-## 5. About the Dataset
+## 5. About the DAIC-WOZ Dataset
 
-### [Dataset](https://dcapswoz.ict.usc.edu/wwwdaicwoz/):  
-
+#### Link to [Dataset](https://dcapswoz.ict.usc.edu/wwwdaicwoz/):  
+Note that you will need to fill out a data agreement in order to receive access to the dataset
 Daic-woz 
 
 * Multimodal: video clips (visual, audio, textual)  
