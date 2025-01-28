@@ -14,6 +14,8 @@ Repo3 is the repo I had the most success with (and successfully debugged) which 
 
 Below are steps to run…
 
+## 2. Instructions to Run
+Note that I had significant bugs with the open source code-bases in repo1 and repo2, so they are not functional despite using the instrucitons listed in their respective readmes. It could be a dependency or hardware issue or slight discrepancy in pre-processing/data cleaning and the model code. Below are instructions for running repo3, which I've been able to run successfully. 
 #### **Running repo3**
 
 *Note that this runs on OSCAR Open on Demand (OOD). Due to the size of the dataset, you will need to run on some kind of virtual machine (VM) with significant memory and GPU ability. If you’re not using the OSCAR system at Brown University, replace references to OOD with a suitable VM*
@@ -53,13 +55,13 @@ If you need to delete a half-trained model & want to start from scratch (rather 
 \# repo3/DepAudioNet\_reproduction/exp\_run/config\_1.py  
 rm \-r WORKSPACE\_MAIN\_DIR/exp\_run/
 
-## Known Bugs
+## 3. Known Bugs
 
 This model doesn’t run on Nvidia A2 GPU – not sure why, but when I run on it I get this error:   
 ![][image1]  
 **Fix**: With NVIDIA RTX GPU (and likely other GPUs as well), it works
 
-## Results
+## 4. Results
 
 When running with the default configuration parameters listed in /DepAudioNet\_reproduction/exp\_run/config\_1.py, the following results are achieved:
 
@@ -94,7 +96,7 @@ When running with the configuration parameters which reproduced the results of t
 
 [Oscar Desktop Session](https://docs.ccv.brown.edu/oscar/connecting-to-oscar/open-ondemand/desktop-app-vnc#launching-desktop-app-vnc)
 
-## Data
+## 5. About the Dataset
 
 ### [Dataset](https://dcapswoz.ict.usc.edu/wwwdaicwoz/):  
 
@@ -157,7 +159,7 @@ Follow this link for information on how to connect to [Connecting to OSCAR](http
 **Preprocessing design limitations:**  
 Right now I am saving the padded pre-processed data which uses unnecessary memory due to padding but because of convenience/ease of loading the data in it’s fully processed state, we choose this trade off 
 
-## Related Work
+## 6. Related Work
 
 ### Promising Papers to Re-Implement
 
