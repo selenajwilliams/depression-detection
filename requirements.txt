@@ -1,0 +1,8 @@
+bs4
+requests
+numpy
+matplotlib
+pandas
+scikit-learn
+keras
+tensorflow
