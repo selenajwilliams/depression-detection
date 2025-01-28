@@ -2,7 +2,7 @@
 
 This readme contains an (1) overview of the repos, (2) instructions to run them, (3) known bugs, (4) results, (5) info about dataset and (6) related works at the bottom.
 
-## Repo Overview
+## 1. Repo Overview
 
 repo1, repo2, repo3 are all open-source repos for depression detection online. They each have the structure:  
 repoX/Original-Open-Source-Repo-Title-From-Github/files  
