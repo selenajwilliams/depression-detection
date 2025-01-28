@@ -98,26 +98,16 @@ When running with the configuration parameters which reproduced the results of t
 
 ## 5. About the DAIC-WOZ Dataset
 
-#### Link to [Dataset](https://dcapswoz.ict.usc.edu/wwwdaicwoz/):  
 Note that you will need to fill out a data agreement in order to receive access to the dataset
 Daic-woz 
-
-* Multimodal: video clips (visual, audio, textual)  
+The DAIC-WOZ dataset includes:
+* Multimodal video clips (visual, audio, textual)  
 * Contains clinician interviews designed to support the diagnosis of anxiety, depression, PTSD  
 * Metadata: age & gender
 
-Reach out to about datasets:
-
-* Kiersten Langdon \- assoc director of CDH \-   
-* Sometimes you can do studies that have humans in it but doesn’t need IRB if it’s not about studying human subjects – humans can label things –   
-* Public CBT dataset: public discussions –   
-* Really try to find 1   
-* Relationship between multiple variables: gender/ethnicity/income affect fairness  
-* Look at the work of places you’re a applying to → reach out to them → can I present remotely or seek informal mentorship 
-
 ### Data Visualization
 
-Access the code repository [here](https://github.com/selenajwilliams/thesis.git)
+Access the code repository for my original data visualization here [here](https://github.com/selenajwilliams/thesis.git) -- note that this is not necessary to run repo 3
 
 ### About Data Pre-processing
 
